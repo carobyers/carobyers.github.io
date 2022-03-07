@@ -96,7 +96,7 @@ ol
     background-color: linen;
   }
 }
-@media screen and (max-width: 1900px) and (max-width:1100px){
+@media screen and (max-width: 1900px) and (min-width:1100px){
   .navbar {
     padding: 30px;
   }
