@@ -13,7 +13,7 @@ h1
 
 h2
 {
-  font-family:'Poppins',sans-serif;
+  font-family:'gopher',sans-serif;
    /* font-size: 14px;--!> */
   color:#EF872C;
 }
@@ -34,7 +34,7 @@ p
 
 ol
 {
-  font-family:'Poppins',sans-serif;
+  font-family:'gopher',sans-serif;
   font-size: 16px;
   color: #E36834;
 }
