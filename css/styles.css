@@ -1,26 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Cabin:wght@500;700&family=Josefin+Sans:wght@300;400;500&family=Montserrat:wght@200;300&family=Paytone+One&family=Poppins:wght@200;300&family=Roboto+Serif:wght@100&display=swap');
 html {background-color: #FFF1DE;
-/* opacity: .7; */
 }
 
 h1
 {
   font-family:"gopher";
-  /* font-size: 14px */
   color: #E36834;
 }
 
 h2
 {
-  font-family:'gopher',sans-serif;
-   /* font-size: 14px;--!> */
+  font-family:"gopher";
   color:#EF872C;
 }
 
 h3
 {
   font-family:"gopher";
-  /* font-size: 14px;--!> */
   color: #EF872C;
 }
 
@@ -28,65 +24,143 @@ p
 {
   font-family:"montserrat";
   font-size: 16px;
-  color: #DE6E0C;
+  color: #EF872C;
 }
 
-ol
-{
-  font-family:'gopher',sans-serif;
-  font-size: 16px;
-  color: #E36834;
-}
+
 
 .navbar {
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-between;
   align-items: center;
   font-family: "gopher";
-  color: black;
+  color: black ;
 }
-.navbar-name{
+
+.logo-and-name h1{
+  display:inline;
   padding: 30px;
 }
-/* .navbar-left {
-  display: flex;
-  justify-content: flex-end;
-  align-items: right;
-  font-family: "gopher"; */
-.navbar-a{
+
+.navbar-right a{
   padding:30px;
-  /* align-items: right; */
-  /* order:1; */
-}
-.navbar-b{
-  padding: 30px;
-  /* align-items: right; */
-  /* order: 2; */
-}
-.navbar-c{
-  padding: 30px;
-  /* align-itmes: right; */
-  /* order: 3; */
-}
-.navbar-d{
-  padding: 30px;
-  /* align-items: right' */
-  /* order: 4 */
+  justify-content: flex-end;
+  text-decoration: none;
+  color: #E36834;
+  font-family: "gopher";
+  font-size: 20px;
 }
 
 .images{
   display: flex;
   justify-content: center;
-
 }
+
 .images-1{
   padding: 30px;
 }
 
 .images-2{
-  padding: 12px;
-  width: 500px;
+  padding: 30px;
+  /* width: 500px; */
 }
+
+.images-3{
+  padding: 30px;
+}
+
+.images-4{
+  padding: 30px;
+}
+
+.images-5{
+  padding: 30px;
+}
+
+.images-6{
+  padding:30px;
+}
+
+.images-7{
+  padding:30px;
+}
+
+.images-second-row{
+  display: flex;
+  justify-content: center;
+}
+
+.images-8{
+  padding:30px;
+}
+
+.images-9{
+  padding: 30px;
+}
+
+.images-10{
+  padding:30px;
+}
+
+.about-me{
+  padding:12px;
+  width: 450px;
+  color: #EF872C;
+}
+
+.portfolio-paragraph{
+  text-align: center;
+  font-family: "montserrat";
+  color: #EF872C;
+}
+
+.contact-paragraph p{
+  text-align: center;
+  font-family: "gopher";
+  font-size: 20px;
+  color: #EF872C;
+}
+
+.form{
+  margin:0 auto;
+}
+
+form label{
+  font-family:"montserrat";
+  color: #EF872C;
+}
+
+input[type=text] {
+  text-align: center;
+  font-family: "montserrat";
+  width: 100%;
+  padding: 12px 50px;
+  margin: 8px 0;
+  background-color: #FFF5BF;
+  border: 2px solid orange;
+  border-radius: 4px;
+  color: #EF872C;
+}
+
+.form-box{
+  display: flex;
+  justify-content: center;
+}
+
+.contact-info p{
+  display: flex;
+  text-decoration: none;
+  justify-content: center;
+  text-align: center;
+  font-size: 20px;
+  font-family:"gopher";
+}
+
+.contact-info a{
+  text-decoration: none;
+  color: #EF872C;
+}
+
 @media screen and (min-width: 400px) and (max-width: 700px){
   .navbar {
     padding: 5px;
