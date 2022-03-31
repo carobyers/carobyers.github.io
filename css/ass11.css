@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@500;700&family=Josefin+Sans:wght@300;400;500&family=Montserrat:wght@200;300&family=Paytone+One&family=Poppins:wght@200;300&family=Roboto+Serif:wght@100&display=swap');
+html {background-color: #FFF1DE;
+}
+
+button{
+    transition: all 900ms ease-in-out;
+    font-size: 40px;
+    color: #EF872C;
+    font-family: "gopher";
+    background-color: #FFF5BF;
+    border: 2px solid orange;
+    border-radius: 4px;
+  }
+
+.was-clicked{
+  color: #E36834;
+  padding: 20px;
+}
+
+span {
+  color: #E36834;
+  padding: 20px;
+  font-family: "gopher";
+}
