@@ -1,11 +1,14 @@
 <!DOCTYPE html>
+<html>
 <head>
   <meta charset="utf-8">
 
   <title>Illustrator Art</title>
 
   <link rel="stylesheet" href="./css/styles.css">
+  <link rel="stylesheet" href="./css/dropdown.css">
   <link rel="stylesheet" href="https://fonts.google.com">
+  <script src="./js/dropdown.js"></script>
 </head>
 
 <body>
@@ -24,22 +27,20 @@
       </svg>
       </div>
 
-      <div class="navbar-right">
-
-        <a href="./index.html">Home</a>
-
-        <a href="./about.html">About</a>
-
-        <a href="./portfolio.html">Portfolio</a>
-
-        <a href="./contact.html">Contact</a>
-
-    </div>
+      <div class="dropdown">
+       <button onclick="myFunction()" class="dropbtn">=</button>
+       <div id="myDropdown" class="dropdown-content">
+         <a href="./index.html">Home</a>
+         <a href="./about.html">About</a>
+         <a href="./portfolio1.html">Portfolio</a>
+         <a href="./contact.html">Contact</a>
+      </div>
+      </div>
     </div>
 
     <div class="portfolio-navbar-center">
       <div class="portfolio-navbar">
-        <a href="./portfolio1.html">Python Art</a>
+        <a href="./portfolio1.html">Generative Art</a>
 
         <a href="./portfolio2.html">Illustrator Art</a>
 
@@ -50,15 +51,19 @@
     <div class="portfolio2-content">
       <div class="illustrator-art">
         <img src="img/illustratorart.png" alt="Illustrator Art"
-        width="400"
-        height="560">
+        width="350"
+        height="500">
       </div>
 
       <div class="illustrator-art-paragraph">
-        <h3>About this project</h3>
-        <p>areer that I can use both. As I have interests in several industries, I am looking for a job in Marketing, Social Media Marketing, Graphic Design or Real Estate until graduation. I am also hopeful that I can find a position where working with and helping people is a core part, as I would definitely consider myself a people perso:)</p>
+        <h3>About This Project</h3>
+        <p>I created this poster in my Text Design class for the Colorado Symphony Orchestra's fall 2022 schedule. I used Adobe Illustrator to create this.
+        We were tasked with utilizing various font faces and four colors to create a visually engaging poster. I chose to follow a retro
+        and colorful vibe to communicate a warm and uplifting feeling to the viewers. I also incorporated lines and circles to represent
+      what a guitar looks like. I am very proud of this piece as it makes me happy when I look at it and I really like the color scheme. </p>
 
       </div>
     </div>
 
 </body>
+</html>

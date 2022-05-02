@@ -1,11 +1,14 @@
 <!DOCTYPE html>
+<html>
 <head>
   <meta charset="utf-8">
 
   <title>Python Art</title>
 
   <link rel="stylesheet" href="./css/styles.css">
+  <link rel="stylesheet" href="./css/dropdown.css">
   <link rel="stylesheet" href="https://fonts.google.com">
+  <script src="./js/dropdown.js"></script>
 </head>
 
 
@@ -27,22 +30,21 @@
 
       </div>
 
-      <div class="navbar-right">
-
-        <a href="./index.html">Home</a>
-
-        <a href="./about.html">About</a>
-
-        <a href="./portfolio.html">Portfolio</a>
-
-        <a href="./contact.html">Contact</a>
-
-    </div>
+      <div class="dropdown">
+       <button onclick="myFunction()" class="dropbtn">=</button>
+       <div id="myDropdown" class="dropdown-content">
+         <a href="./index.html">Home</a>
+         <a href="./about.html">About</a>
+         <a href="./portfolio1.html">Portfolio</a>
+         <a href="./contact.html">Contact</a>
+      </div>
+      </div>
     </div>
 
+  
     <div class="portfolio-navbar-center">
       <div class="portfolio-navbar">
-        <a href="./portfolio1.html">Python Art</a>
+        <a href="./portfolio1.html">Generative Art</a>
 
         <a href="./portfolio2.html">Illustrator Art</a>
 
@@ -58,6 +60,16 @@
       </div>
 
       <div class="python-art-paragraph">
-        <h3>About this project</h3>
-        <p>Hello and welcome to my page! </p>
+        <h3>About This Project</h3>
+        <p> In my Computational Foundations class, we learned how to use the Python IDE programming language on Spyder. For our final project
+          I chose to code a generative art piece. This piece is interactive, as wherever the user clicks on the screen, a different sized and colored dot will appear and the background will also change color.
+          When I was presenting this piece, it was interesting to see the different pieces of art people were able to create when they interacted with it.
+          It was a great way to see how people think differently and what color combinations were their favorite. This was definitely one of my favorite projects as it was a very fun way to interact with <thead>
+            screen and be able to create various pieces of generative art with one click.
+          </thead>
+         </p>
     </div>
+
+    </div>
+    </body>
+    </html>

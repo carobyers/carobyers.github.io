@@ -1,22 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Cabin:wght@500;700&family=Josefin+Sans:wght@300;400;500&family=Montserrat:wght@200;300&family=Paytone+One&family=Poppins:wght@200;300&family=Roboto+Serif:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@500;700&family=Josefin+Sans:wght@300;400;500&family=Montserrat:wght@200;300&family=Paytone+One&family=Plus+Jakarta+Sans:wght@600;700;800&family=Poppins:wght@200;300&family=Roboto+Serif:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&family=Montserrat:wght@200;300&family=Paytone+One&family=Plus+Jakarta+Sans:wght@600;700;800&family=Poppins:wght@200;300&family=Righteous&family=Roboto+Serif:wght@100&display=swap');
+
+
+  .navbar {
+    padding: 30px;
+  }
 html {background-color: #FFF1DE;
 }
 
 h1
 {
-  font-family:"gopher";
+  font-family:"Righteous";
+  font-weight: 700px;
   color: #E36834;
 }
 
 h2
 {
-  font-family:"gopher";
+  font-family:"Righteous";
+  font-weight: 400px;
   color:#EF872C;
 }
 
 h3
 {
-  font-family:"gopher";
+  font-family:"Righteous";
   color: #EF872C;
 }
 
@@ -31,32 +40,68 @@ p
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-family: "gopher";
+  font-family: "Josefin Sans";
+  font-weight: 300px;
   color: black ;
+  padding-bottom: -10px;
+  margin-bottom: -20px;
 }
 
 .logo-and-name h1{
-  display:inline;
+  display: inline;
   padding: 30px;
 }
 
 .navbar-right a{
-  padding:30px;
+  padding: 30px;
   justify-content: flex-end;
   text-decoration: none;
   color: #E36834;
-  font-family: "gopher";
-  font-size: 20px;
+  font-family: "Righteous";
+  font-weight: 300px;
+  font-size: 22px;
 }
 
-.images{
-  display: flex;
-  justify-content: center;
+.dropbtn {
+ background-color: #FFF1DE;
+ color: #E36834;
+ padding: 16px;
+ padding-right: 50px;
+ /* padding-top: 0px; */
+ font-size: 50px;
+ border: none;
+ cursor: pointer;
+ float: right;
+ justify-content: flex-end;
+ display: flex;
 }
 
-.images-1{
-  padding: 30px;
+.portfolio-navbar-center a{
+  margin-top: -70px;
+  font-size: 40px;
+
 }
+
+.portfolio-navbar a{
+  font-size: 40px;
+}
+
+  .images{
+    display: flex;
+    justify-content: center;
+  }
+
+
+  .images-1{
+    padding: 30px;
+
+  }
+
+  .images-3{
+    padding: 30px;
+  }
+
+
 
 .images-2{
   padding: 30px;
@@ -71,24 +116,24 @@ p
 }
 
 .images-5{
-  padding: 30px;
+  padding: 20px;
 }
 
 .images-6{
-  padding:30px;
+  padding:20px;
+
 }
 
 .images-7{
-  padding:30px;
+  display: inline;
+  padding: 0 33px;
 }
 
-.images-second-row{
-  display: flex;
-  justify-content: center;
-}
 
 .images-8{
-  padding:30px;
+  padding: 0 33px;
+  display: inline;
+  margin-right: 250px;
 }
 
 .images-9{
@@ -111,19 +156,94 @@ p
   color: #EF872C;
 }
 
+.portfolio-navbar a{
+  display: inline-flex;
+  padding: 30px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: #E36834;
+  font-family:"Josefin Sans";
+  font-weight: 30px;
+  font-size: 20px;
+}
+.portfolio-navbar-center{
+  text-align: center;
+}
+
+.portfolio1-content{
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.python-art{
+  padding: 10px;
+
+}
+.python-art-paragraph{
+  padding: 20px;
+  display: inline-block;
+  width: 400px;
+
+}
+.portfolio2-content{
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.illustrator-art{
+  padding: 10px;
+}
+
+.illustrator-art-paragraph{
+  display: inline-block;
+  justify-content: center;
+  padding: 20px;
+  width: 400px;
+}
+
+.portfolio3-content{
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.photoshop-paragraph{
+  padding: 20px;
+  display: inline-block;
+  justify-content: center;
+  width: 250px;
+}
+
+.photoshop-images{
+  display: flex;
+  justify-content: center;
+  padding: 0 10px;
+}
+
 .contact-paragraph p{
   text-align: center;
-  font-family: "gopher";
+  font-family: "Josefin Sans";
+  font-weight: 300px;
   font-size: 20px;
   color: #EF872C;
 }
 
 .form{
-  margin:0 auto;
+  text-align: center;
+  justify-content: center;
+}
+.form form{
+  display: inline-block;
+  text-align: left;
 }
 
 form label{
-  font-family:"montserrat";
+  font-family:"Josefin Sans";
+  font-weight: 300px;
   color: #EF872C;
 }
 
@@ -140,8 +260,7 @@ input[type=text] {
 }
 
 .form-box{
-  display: flex;
-  justify-content: center;
+
 }
 
 .contact-info p{
@@ -150,7 +269,8 @@ input[type=text] {
   justify-content: center;
   text-align: center;
   font-size: 20px;
-  font-family:"gopher";
+  font-family:"Josefin Sans";
+  font-weight: 300px;
 }
 
 .contact-info a{
@@ -158,19 +278,182 @@ input[type=text] {
   color: #EF872C;
 }
 
-@media screen and (min-width: 400px) and (max-width: 700px){
-  .navbar {
-    padding: 5px;
-  }
-  body{
-    background-color: linen;
-  }
+.button{
+  text-align: center;
 }
-@media screen and (max-width: 1900px) and (min-width:1100px){
-  .navbar {
-    padding: 30px;
-  }
-  body{
-    background-color: linen;
-  }
+
+.button a{
+  text-decoration: none;
+  display:inline-block;
+  border: 2px solid orange;
+  width: 80px;
+  height: 50px;
+  border-radius: 1000px;
+  color: orange;
+  background-color: #FFF5BF;
+  font-family: "Josefin Sans";
 }
+
+@media only screen and (max-width: 400px){
+  h1{
+    font-size: 20px;
+    padding-left: 0px;
+    padding-top: 10px;
+    margin-left: -30px;
+  }
+  .dropbtn{
+    padding-right: 0px;
+    margin-right: -90px;
+    font-size: 10px;
+    margin-top: -40px;
+  }
+
+.navbar{
+  padding-bottom: -20px;
+}
+
+.dropdown-content {
+ font-size: 16px;
+}
+  rect{
+    width: 60px;
+    height: 30px;
+  }
+  .images{
+    flex-direction: column;
+  }
+
+  .images-1 img{
+    width: 250px;
+    height: 420px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .images-2 img{
+    width: 300px;
+    height: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .images-3 img{
+    width: 300px;
+    height: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .about-me{
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 0px;
+  }
+
+.portfolio1-content{
+  flex-direction: column;
+}
+
+.python-art img{
+  width: 300px;
+  height: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.python-art-paragraph {
+  width: 325px;
+}
+
+.portfolio2-content{
+  flex-direction: column;
+}
+
+.illustrator-art img{
+  width:300px;
+  height: 450px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.illustrator-art-paragraph {
+  width: 325px;
+  display: block;
+  flex-direction: column;
+}
+
+.portfolio3-content{
+  flex-direction: column;
+}
+
+.images-5 img{
+  width: 350px;
+  height: 265px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.images-6 img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.photoshop-paragraph{
+  width: 320px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.images-7 img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.images-8 img{
+  width: 350px;
+  height: 265px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.photoshop-images {
+  flex-direction: column;
+  padding: 15px;
+}
+
+  .button{}
+
+  .contact-info{
+
+  }
+
+
+.form{
+  width: 225px;
+  justify-content: center;
+  align-items: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+  .form-box{
+    width: 150px;
+    justify-content: center;
+  }
+
+  .contact-paragraph p{
+    font-size: 15px;
+  }
+
+  }

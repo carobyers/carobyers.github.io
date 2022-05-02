@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&family=Montserrat:wght@200;300&family=Paytone+One&family=Plus+Jakarta+Sans:wght@600;700;800&family=Poppins:wght@200;300&family=Righteous&family=Roboto+Serif:wght@100&display=swap');
+
+
+.dropbtn {
+ background-color: #FFF1DE;
+ color: #E36834;
+ padding: 16px;
+ padding-right: 50px;
+
+ font-size: 50px;
+ border: none;
+ cursor: pointer;
+ float: right;
+}
+
+
+.dropbtn:hover, .dropbtn:focus {
+ background-color: #FFB859;
+ float: right;
+}
+
+
+.dropdown {
+ position: relative;
+ display: inline-block;
+ float: right;
+ padding: 30px;
+}
+
+
+.dropdown-content {
+ display: none;
+ position: absolute;
+ background-color: #FFF1DE;
+ min-width: 160px;
+ box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+ z-index: 1;
+ font-family: "Righteous";
+ font-size: 22px;
+ float: left;
+ color: #E36834;
+}
+
+
+.dropdown-content a {
+ color: #E36834;
+ padding: 16px 10px;
+ text-decoration: none;
+ display: block;
+}
+
+
+.dropdown-content a:hover {background-color: #FFB859}
+
+
+.show {display:block;}
+
+@media only screen and (max-width: 400px){
+  .dropdown-content a{
+    font-size: 14px;
+  }
+
+  .dropbtn {
+    font-size: 40px;
+  }
+}
